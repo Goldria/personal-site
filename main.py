@@ -50,4 +50,4 @@ if __name__ == "__main__":
                 db_init()
                 sys.exit(0)
 
-    app.run(port=5000, debug=True)
+    app.run(host='0.0.0.0.', port=5000, debug=True)
