@@ -1,6 +1,4 @@
-from crypt import methods
 import sys
-from unicodedata import name
 from urllib import request
 
 from flask import Flask, render_template, request, redirect, url_for
